@@ -1,0 +1,40 @@
+#using arithmetic and assignment operators
+print (30 + 5) 
+print (30/5)
+print (30*5)
+print (30-5)
+num1 = float(input("enter first value: "))
+num2 = float(input("enter Second value: "))
+print ("Addition -", num1 +num2)
+print ("Subtraction -", num1 - num2)
+print ("Multiplication -", num1  * num2)
+print ("Division -", num1 /num2)
+
+#challenge add comments to explain wha the code is doingprint (30 + 5) 
+"""
+print (30 + 5) # this is  adding two numbers together
+print (30/5) # this is dviiding two numbers
+print (30*5) #this is multiplying two numbers
+print (30-5) # this is subtracting two numbers
+
+num1 = float(input("enter first value: ")) # this is assigning a variable named "num1" to a value float asking the user to input a number, float means meaning it has decimal 
+num2 = float(input("enter Second value: ")) #this is assigning a variable named "num1" to a value float asking the user to input a number  meaning it has decimal
+print ("Addition -", num1 + num2) #prints the addtion of the two varibles with wording "addition" preceding it 
+print ("Subtraction -", num1 - num2) #prints the addtion of the two varibles with wording "addition" preceding it
+print ("Multiplication -", num1  * num2) #prints the multiplication of the two varibles with wording "addition" preceding it
+print ("Division -", num1 /num2) #prints the division of the two varibles with wording "addition" preceding it
+"""
+#Challenge add comments to identify where the operators are
+"""
+print (30 + 5) # + is the operator
+print (30/5) # / is the operator
+print (30*5) # *  is the operator
+print (30-5) # -  the operator
+"""
+#Challenge try changing teh data type from float to int, what happens
+num1 = int(input("enter first value: "))
+num2 = int(input("enter Second value: "))
+print ("Addition -", num1 +num2)
+print ("Subtraction -", num1 - num2)
+print ("Multiplication -", num1  * num2)
+print ("Division -", num1 /num2)
