@@ -1,0 +1,6 @@
+#using comparison and assignment operators 
+#grade result program
+percentage =int(input("Enter your Percentage mark e.g. 75")) #assignment operator 
+result = "" #assigning an empty value to this variable 
+if percentage >= 70:
+  result = "distinction"
