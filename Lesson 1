@@ -1,0 +1,22 @@
+#This program will demonstrate how we can create variables , use data types and obtain inputs
+#dclare variables and assign values 
+fullname="Mohamed Ali" #string
+age=25 #integer
+heightincm = 152.4 #float
+homeowner=True #boolean, True or False must start with uppercase
+
+print (fullname) #add a print statement to output of each variable 
+print (age)
+print (heightincm)
+print (homeowner)
+
+print ("My name is" + fullname) #CHALLENGE output the rest of the data in this format
+print ("my age is" + str(age))
+print ("my height is" + str(heightincm))
+print (" I am a homeowner " + str(homeowner))
+
+pet=input ("Do you own a pet?") #take an input from the user to make or program interactive 
+#challenge can you add more questions? 
+Car=input ("Do you have a car?:")
+work=input ("what is your profession?: ")
+print (pet, Car , work)
