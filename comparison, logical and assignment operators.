@@ -1,0 +1,18 @@
+#using comparison , logical and assignment operators 
+#password username checker program
+actualpassword = "password" #assignment operator
+passwordentered = str(input("Enter your passowrd ")) #assignmetn operator
+
+if (passwordentered!=actualpassword): #relational operator 'not equal to'
+    print ("invalid passowrd")
+else: 
+    print ("Valid password")
+
+#challenge, now let's incoroprate a username and Logical oeprators
+actualusername = "joebloggs" #assignment operator
+usernameentered=str(input("Enter username ")) # assignment operator
+if (passwordentered!=actualpassword) or (usernameentered!=actualusername):
+
+  print ("invalid username")
+else: 
+    print ("Valid username")
